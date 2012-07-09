@@ -2,13 +2,13 @@
 
 This plugin will add the post date to the URL for your blogs posts in [Nesta](http://nestacms.com). Right now the date format is hard-coded in the year/month/permalink format, but plans are already in place to allow customizations to the format. An example of a link would be "2012/07/sample-post". Users migrating from other blogging tools are probably familiar with this format already.
 
-## Installation
+### Installation
 
 Add the following line to your Gemfile:
 
     gem 'nesta-plugin-dateslugs'
 
-## Usage
+### Usage
 
 The plugin will automatically update the permalinks for all blog posts. Blog posts are defined as pages that have a Post Date in their metadata. In order for the plugin to work correctly you must ensure your theme uses the article permalink method and not the abspath method.
 
